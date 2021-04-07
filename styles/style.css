@@ -1,0 +1,90 @@
+@font-face {
+    font-family: titulo;
+    src: url(../fontes/WitcherMasonSerif.ttf);
+}
+
+body{
+    background-image:url(../images/fundo4k3.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header { 
+    display: flex;  
+    justify-content: center; 
+
+ 
+}
+
+.logo {
+    height: 150px;
+    width: 450px;
+    padding-left: 70px; 
+}
+
+.gameblock {
+    display: flex;
+    align-items: center;    
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 20px;
+    padding-left: 70px; 
+}
+
+.imgblock {
+    border: solid white 3px;
+    height: 300px;
+    width: 500px;
+}
+
+footer{
+    font-family: titulo;
+    font-size: 15px;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    padding-left: 70px; 
+}
+
+.scroll {
+    height: 150px;
+    width: 120;
+}
+
+.botao {
+    background: none;
+    border: 0;
+    background-image: url(../images/scroll1.png);
+    background-size: cover;
+    height: 150px;
+    width: 250px;
+    font-size: 16px;
+    outline: none;
+    margin-right: 5px;
+    cursor: pointer;
+    font-family: titulo;
+    font-size: 15px;
+    font-weight: bolder;
+    
+    text-justify:newspaper;
+    
+}
+.botao:active {
+    border: 0;
+}
+
+audio {
+    height: 20px;
+    width: 100px;
+}
